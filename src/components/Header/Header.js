@@ -1,7 +1,8 @@
 import React from 'react';
+import { Text } from '..';
 
 const Header = () => {
-  return <div>Expense counter</div>;
+  return <Text size='xl'>Expense Tracker</Text>;
 };
 
 export default Header;

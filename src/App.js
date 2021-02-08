@@ -10,11 +10,15 @@ import {
 function App() {
   return (
     <>
-      <Header />
-      <Balance />
-      <IncomeExpenses />
-      <TransactionList />
-      <AddTransaction />
+      <div className='wrapper'>
+        <div className='card'>
+          <Header />
+          <Balance />
+          <IncomeExpenses />
+          <TransactionList />
+          <AddTransaction />
+        </div>
+      </div>
     </>
   );
 }

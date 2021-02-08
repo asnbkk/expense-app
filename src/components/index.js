@@ -11,3 +11,5 @@ export { default as TransactionList } from './TransactionList/TransactionList';
 export { default as AddTransaction } from './AddTransaction/AddTransaction';
 
 export { default as Input } from './Input/Input';
+
+export { default as Button } from './Button/Button';
