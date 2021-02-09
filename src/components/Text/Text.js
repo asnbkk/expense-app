@@ -1,9 +1,9 @@
 import React from 'react';
 import TextStyle from './TextStyle';
 
-const Text = ({ children, weight, size, margin }) => {
+const Text = ({ children, weight, size, margin, color }) => {
   return (
-    <TextStyle weight={weight} size={size} margin={margin}>
+    <TextStyle color={color} weight={weight} size={size} margin={margin}>
       {children}
     </TextStyle>
   );
@@ -14,6 +14,7 @@ Text.defaultProps = {
   weight: 'regular',
   size: 'md',
   margin: '0px',
+  color: '#000',
 };
 
 export default Text;

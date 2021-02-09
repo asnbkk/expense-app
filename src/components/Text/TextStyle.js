@@ -18,6 +18,7 @@ const TextStyle = styled.div`
   font-weight: ${({ weight }) => weight && fontWeights[weight]};
   font-size: ${({ size }) => size && fontSizes[size]};
   margin: ${({ margin }) => margin ?? '0px'};
+  color: ${({ color }) => color};
 `;
 
 export default TextStyle;

@@ -7,6 +7,15 @@ export const Wrapper = styled.div`
   align-items: center;
   border-right: 5px solid lightgreen;
   padding-right: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #f0f0f0;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 
   ${({ sign }) =>
     sign == '-' &&
