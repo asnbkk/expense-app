@@ -11,6 +11,14 @@ const ButtonStyle = styled.button`
   align-items: center;
   font-size: 16px;
   padding: 0 1rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 `;
 
 export default ButtonStyle;

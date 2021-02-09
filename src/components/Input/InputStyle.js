@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const InputWrapper = styled.div``;
+export const InputWrapper = styled.div`
+  display: grid;
+`;
 
 export const InputStyle = styled.input`
   height: 40px;

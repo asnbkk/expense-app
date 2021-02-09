@@ -6,11 +6,12 @@ export const Wrapper = styled.div`
   background: gray;
   grid-gap: 1px;
   border: 1px solid gray;
+  margin-bottom: 2rem;
 `;
 
 export const Content = styled.div`
   display: grid;
   padding: 1rem;
   background: white;
-  justify-content: center;
+  justify-items: center;
 `;
