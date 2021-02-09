@@ -9,6 +9,8 @@ const TransactionList = () => {
     return <TransactionCard transaction={item} key={item.id} />;
   });
 
+  console.log(transacitons);
+
   return (
     <Wrapper>
       <Text size='lg'>History</Text>
