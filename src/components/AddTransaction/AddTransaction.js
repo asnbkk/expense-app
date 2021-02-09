@@ -31,6 +31,7 @@ const AddTransaction = () => {
           <Input
             label='Text'
             value={text}
+            placeholder='Enter transaction name'
             onChange={(e) => setText(e.target.value)}
           />
           <Input
